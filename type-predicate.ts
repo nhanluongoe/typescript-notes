@@ -1,6 +1,6 @@
 //1
 function isNumber(n: number | string): n is number {
-  return typeof n === "string";
+  return typeof n === "string"; // mistake here
 }
 const n: string = "not a number";
 const n2: number = isNumber(n) ? n : 0;
