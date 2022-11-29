@@ -1,0 +1,12 @@
+{
+  "name": "typescript-notes",
+  "version": "1.0.0",
+  "description": "typescript-notes along the way of learning",
+  "main": "index.js",
+  "repository": "git@github.com:nhanluongoe/typescript-notes.git",
+  "author": "nhanluongoe <nhanlt18@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-toolbelt": "^9.6.0"
+  }
+}
