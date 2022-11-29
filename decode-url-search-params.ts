@@ -1,4 +1,4 @@
-import { String } from "ts-toolbelt";
+import { Union, String } from "ts-toolbelt";
 
 const query = `/home?a=foo&b=wow`;
 
@@ -17,7 +17,7 @@ type QueryParams = {
 
 // we get auto complete here and ts will
 // throw error if a param doesn't match
-const params: QueryParams = {
+const params: Union.Merge<QueryParams> = {
   a: "foo",
   b: "wow",
   c: "not match",
